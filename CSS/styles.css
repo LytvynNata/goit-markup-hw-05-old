@@ -258,11 +258,23 @@ body {
 
 .job-example .item {
   width: 370px;
+  position: relative;
   /* outline: 1px solid red; */
 }
 
 .job-example .item + .item {
   margin-left: 30px;
+}
+.overlay-job::after {
+  content: '';
+  bottom: 0;
+  left: 0;
+  /* display: inline-block; */
+  background-color: rgba(47, 48, 58, 0.8);
+  outline: 2px solid red;
+  width: 370px;
+  height: 70px;
+  position: absolute;
 }
 /* /-----------------*Features*--------------------/ */
 
