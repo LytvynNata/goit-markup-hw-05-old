@@ -483,6 +483,7 @@ body {
   letter-spacing: 0.03em;
 
   border-radius: 4px;
+  border: transparent;
 }
 
 .button.primary {
@@ -507,6 +508,8 @@ body {
 
   padding: 6px 22px;
   min-width: 73px;
+  border: none;
+  
 }
 
 .button.secondary:hover,
@@ -514,6 +517,9 @@ body {
 .button.secondary:active {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
+}
 }
 /*Portfolio*/
 .portfolio-list .title {
@@ -528,11 +534,11 @@ body {
   margin-bottom: 4px;
 }
 
-.portfolio-list .element:hover,
+/* .portfolio-list .element:hover,
 .portfolio-list .element:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
 .filters-list {
   display: flex;
