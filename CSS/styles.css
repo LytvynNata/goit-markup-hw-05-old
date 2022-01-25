@@ -532,17 +532,9 @@ body {
   margin-bottom: 4px;
 }
 
-.portfolio-list .element:hover,
-.portfolio-list .element:focus {
-  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
-    1px 4px 6px rgba(0, 0, 0, 0.16);
-}
-
 .filters-list {
   display: flex;
   justify-content: center;
-  /* padding-left: 280px;
-  padding-right: 279px; */
   margin-top: 0;
   margin-bottom: 50px;
 }
@@ -634,14 +626,12 @@ body {
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
-.link:hover .element-overlay,
-.link:focus .element-overlay {
+.element-link:hover .element-overlay,
+.element-link:focus .element-overlay {
   opacity: 1;
   transform: translateY(0);
 }
-.portfolio-list .link {
-  display: block;
-}
+
 .element-overlay-text {
   margin: 0;
   font-size: 18px;
